@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Message For Modak Ji 🐻‍❄️❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Snow -->
+    <div class="snow-container"></div>
+
+    <!-- Hearts -->
+    <div class="hearts-container"></div>
+
+    <!-- ==========================
+         SCREEN 1
+    =========================== -->
+
+    <section class="screen active" id="screen1">
+
+        <div class="screen-card">
+
+            <div class="big-bear">
+                🐻‍❄️
+            </div>
+
+            <h1>
+                A Message For Modak Ji ❤️
+            </h1>
+
+            <p class="subtitle">
+                Warning:
+                <br>
+                Yeh website ek bahut nervous
+                polar bear ne banayi hai.
+            </p>
+
+            <button
+                class="next-btn"
+                onclick="nextScreen('screen1','screen2')"
+            >
+                Okay 👀
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         SCREEN 2
+    =========================== -->
+
+    <section class="screen" id="screen2">
+
+        <div class="screen-card">
+
+            <div class="big-bear">
+                🐻‍❄️
+            </div>
+
+            <h2>
+                Modak Ji...
+            </h2>
+
+            <p>
+                Kya aap abhi bhi gusse ho?
+            </p>
+
+            <div class="choice-buttons">
+
+                <button
+                    class="choice-btn"
+                    onclick="showAnswer('angryAnswer')"
+                >
+                    😠 Haan
+                </button>
+
+                <button
+                    class="choice-btn"
+                    onclick="showAnswer('happyAnswer')"
+                >
+                    😊 Naa
+                </button>
+
+            </div>
+
+            <div
+                id="angryAnswer"
+                class="answer-box"
+            >
+                Expected tha.
+                <br><br>
+                Main bhi hota.
+                <br><br>
+                Lekin please thoda aur dekho ❤️
+            </div>
+
+            <div
+                id="happyAnswer"
+                class="answer-box"
+            >
+                Yayy 🎉
+                <br><br>
+                Fir bhi aage dekho.
+                Mere paas aur bhi baatein hain ❤️
+            </div>
+
+            <button
+                class="next-btn"
+                onclick="nextScreen('screen2','screen3')"
+            >
+                Next ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         SCREEN 3
+    =========================== -->
+
+    <section class="screen" id="screen3">
+
+        <div class="screen-card">
+
+            <div class="big-bear">
+                🐻‍❄️
+            </div>
+
+            <h2>
+                Official Polar Bear Statement
+            </h2>
+
+            <div class="speech-box">
+
+                <p>
+                    Modak Ji,
+                    please gussa thoda side mein
+                    rakh dijiye.
+                </p>
+
+                <br>
+
+                <p>
+                    Main important kaam
+                    kar raha hoon.
+                </p>
+
+            </div>
+
+            <button
+                class="next-btn"
+                onclick="nextScreen('screen3','screen4')"
+            >
+                Theek Hai 🐻‍❄️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         SCREEN 4
+    =========================== -->
+
+    <section class="screen" id="screen4">
+
+        <div class="screen-card letter-card">
+
+            <div class="big-bear">
+                🐻‍❄️
+            </div>
+
+            <h2>
+                Dear Modak Ji
+            </h2>
+
+            <div class="letter-text">
+
+                <p>
+                    Main perfect nahi hoon.
+                </p>
+
+                <p>
+                    Kabhi galtiyan karti hoon.
+                    <br>
+                    Kabhi zyada react kar deti hoon.
+                    <br>
+                    Kabhi baat samjha nahi paati.
+                </p>
+
+                <p>
+                    Lekin ek baat sach hai.
+                </p>
+
+                <p>
+                    Aap mere liye
+                    bahut important ho.
+                </p>
+
+                <p>
+                    Aur agar meri kisi baat se
+                    aap hurt hue,
+                    to uska mujhe genuinely
+                    afsos hai.
+                </p>
+
+                <h3>
+                    Sorry ❤️
+                </h3>
+
+            </div>
+
+            <button
+                class="next-btn"
+                onclick="nextScreen('screen4','screen5')"
+            >
+                Continue ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         SCREEN 5
+    =========================== -->
+
+    <section class="screen" id="screen5">
+
+        <div class="screen-card">
+
+            <div class="big-bear">
+                🐻‍❄️
+            </div>
+
+            <h2>
+                Ek Chhota Sa Sawal
+            </h2>
+
+            <p>
+                Modak Ji,
+                kya aap meri baat sunoge?
+            </p>
+
+            <div class="choice-buttons">
+
+                <button
+                    class="choice-btn"
+                    onclick="showAnswer('listenYes')"
+                >
+                    🐻‍❄️ Haan
+                </button>
+
+                <button
+                    class="choice-btn"
+                    onclick="showAnswer('listenMaybe')"
+                >
+                    🙄 Dekhte Hain
+                </button>
+
+            </div>
+
+            <div
+                id="listenYes"
+                class="answer-box"
+            >
+                Thank you ❤️
+                <br><br>
+                Polar Bear appreciates this.
+            </div>
+
+            <div
+                id="listenMaybe"
+                class="answer-box"
+            >
+                Fair enough 😅
+                <br><br>
+                Main fir bhi koshish karungi.
+            </div>
+
+            <button
+                class="next-btn"
+                onclick="nextScreen('screen5','screen6')"
+            >
+                Aage Chalein ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         SCREEN 6
+    =========================== -->
+
+    <section class="screen" id="screen6">
+
+        <div class="screen-card">
+
+            <div class="big-bear">
+                🐻‍❄️
+            </div>
+
+            <h2>
+                Things The Polar Bear Knows ❤️
+            </h2>
+
+            <div class="facts-grid">
+
+                <div class="fact-card">
+                    ❤️ Modak Ji deserve happiness
+                </div>
+
+                <div class="fact-card">
+                    ❤️ Modak Ji ki smile awesome hai
+                </div>
+
+                <div class="fact-card">
+                    ❤️ Modak Ji ka gussa thoda scary hai
+                </div>
+
+                <div class="fact-card">
+                    ❤️ Lekin Modak Ji bahut special hain
+                </div>
+
+                <div class="fact-card">
+                    ❤️ Aur unhe miss kiya ja raha hai
+                </div>
+
+            </div>
+
+            <button
+                class="next-btn"
+                onclick="nextScreen('screen6','screen7')"
+            >
+                Next ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         SCREEN 7
+    =========================== -->
+
+    <section class="screen" id="screen7">
+
+        <div class="screen-card">
+
+            <div
+                class="mood-bear"
+                id="moodBear"
+            >
+                😠
+            </div>
+
+            <h2>
+                Current Modak Ji Status?
+            </h2>
+
+            <input
+                type="range"
+                min="0"
+                max="5"
+                value="0"
+                id="moodSlider"
+            >
+
+            <div
+                class="mood-text"
+                id="moodText"
+            >
+                🔥 Volcano Mode
+            </div>
+
+            <button
+                class="next-btn"
+                onclick="nextScreen('screen7','screen8')"
+            >
+                Continue ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         SCREEN 8
+    =========================== -->
+
+    <section class="screen" id="screen8">
+
+        <div class="screen-card">
+
+            <div class="big-bear">
+                🐻‍❄️
+            </div>
+
+            <h2>
+                Polar Bear Joke Time 😎
+            </h2>
+
+            <div class="speech-box">
+
+                Maine 17 fish aur
+                4 ice cubes khaakar
+                yeh website banayi hai.
+                <br><br>
+
+                Thoda appreciate bhi kar lo.
+            </div>
+
+            <div class="choice-buttons">
+
+                <button
+                    class="choice-btn"
+                    onclick="showAnswer('funnyAnswer')"
+                >
+                    😂 Haha
+                </button>
+
+                <button
+                    class="choice-btn"
+                    onclick="showAnswer('notFunnyAnswer')"
+                >
+                    😐 Not Funny
+                </button>
+
+            </div>
+
+            <div
+                id="funnyAnswer"
+                class="answer-box"
+            >
+                Thank you ❤️
+                <br><br>
+                Main comedy bear hoon.
+            </div>
+
+            <div
+                id="notFunnyAnswer"
+                class="answer-box"
+            >
+                Main bear hoon,
+                stand-up comedian nahi 😭
+            </div>
+
+            <button
+                class="next-btn"
+                onclick="nextScreen('screen8','screen9')"
+            >
+                Next 🐻‍❄️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         SCREEN 9
+    =========================== -->
+
+    <section class="screen" id="screen9">
+
+        <div class="screen-card">
+
+            <div
+                class="hug-bear"
+                id="hugBear"
+            >
+                🐻‍❄️
+            </div>
+
+            <h2>
+                Emergency Hug Delivery
+            </h2>
+
+            <p>
+                Special delivery for
+                Modak Ji ❤️
+            </p>
+
+            <button
+                class="hug-btn"
+                id="hugButton"
+            >
+                Receive Hug 🐻‍❄️
+            </button>
+
+            <p
+                id="hugMessage"
+                class="hug-message"
+            >
+            </p>
+
+            <button
+                class="next-btn"
+                onclick="nextScreen('screen9','screen10')"
+            >
+                One Last Thing ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         SCREEN 10
+    =========================== -->
+
+    <section class="screen" id="screen10">
+
+        <div class="screen-card final-card">
+
+            <div class="polar-couple">
+                🐻‍❄️ ❤️ 🐻‍❄️
+            </div>
+
+            <h2>
+                Modak Ji...
+            </h2>
+
+            <div class="final-letter">
+
+                <p>
+                    Main ladai jeetna
+                    nahi chahti.
+                </p>
+
+                <p>
+                    Main bas aapko
+                    khona nahi chahti.
+                </p>
+
+                <p>
+                    Aap important ho.
+                    <br>
+                    Aur rahoge.
+                </p>
+
+                <p>
+                    Thank you
+                    for yahan tak
+                    padhne ke liye ❤️
+                </p>
+
+            </div>
+
+            <div class="choice-buttons">
+
+                <button
+                    id="forgiveButton"
+                    class="choice-btn"
+                >
+                    ❤️ Haan
+                </button>
+
+                <button
+                    class="choice-btn"
+                    onclick="showAnswer('thinkingAnswer')"
+                >
+                    🤔 Sochunga
+                </button>
+
+            </div>
+
+            <div
+                id="thinkingAnswer"
+                class="answer-box"
+            >
+                Fair enough ❤️
+                <br><br>
+
+                Polar Bear patiently
+                wait karega.
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         CELEBRATION SCREEN
+    =========================== -->
+
+    <section
+        id="celebrationSection"
+        class="screen celebration-screen"
+    >
+
+        <div class="screen-card">
+
+            <div class="big-bear">
+                🎉🐻‍❄️🎉
+            </div>
+
+            <h1>
+                Mission Complete
+            </h1>
+
+            <p>
+                Polar Bear Report:
+                <br><br>
+
+                Modak Ji is officially
+                the most special human ❤️
+            </p>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
